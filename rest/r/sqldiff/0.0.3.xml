@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/sqldiff">SqlDiff</p>
+    <c>pear.starzinger.net</c>
+    <v>0.0.3</v>
+    <st>beta</st>
+    <l>MIT License</l>
+    <m>christer</m>
+    <s>PHP library that creates a series of SQL statements based on two different schemas</s>
+    <d>SqlDiff is a set of components that can be used to generate a series of SQL statments to make one schema equal to another. Currently only MySQL is supported.</d>
+    <da>2011-02-21 17:35:21</da>
+    <n>
+http://github.com/christeredvartsen/sqldiff/blob/master/README.markdown
+ </n>
+    <f>14020</f>
+    <g>http://pear.starzinger.net/get/SqlDiff-0.0.3</g>
+    <x xlink:href="package.0.0.3.xml"/>
+</r>

@@ -1,4 +1,140 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+    <pi>
+        <p>
+            <n>ImboClient</n>
+            <c>pear.starzinger.net</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>MIT</l>
+            <s>Client for Imbo written in PHP</s>
+            <d>This is a client to Imbo servers written in PHP. The client supports all operations possible on the server.</d>
+            <r xlink:href="/rest/r/imboclient" />
+        </p>
 
+        <a>
+            <r>
+                <v>0.2.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.1.1</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.2.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.0";}s:9:"extension";a:1:{s:4:"name";s:3:"spl";}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.0";}s:9:"extension";a:1:{s:4:"name";s:3:"spl";}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.0";}s:9:"extension";a:1:{s:4:"name";s:3:"spl";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>ImboStandard</n>
+            <c>pear.starzinger.net</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>MIT</l>
+            <s>Imbo coding standard for PHP_CodeSniffer</s>
+            <d>PHP_CodeSniffer coding standard used by Imbo and ImboClient</d>
+            <r xlink:href="/rest/r/imbostandard" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.0";}s:7:"package";a:3:{s:4:"name";s:15:"PHP_CodeSniffer";s:7:"channel";s:4:"pear";s:3:"min";s:5:"1.3.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>PHP_BitTorrent</n>
+            <c>pear.starzinger.net</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>MIT License</l>
+            <s>Components for working with torrent files and the BitTorrent format in PHP</s>
+            <d>PHP_BitTorrent is a set of components that can be used to interact with torrent files (read+write) and encode/decode to/from the BitTorrent format.</d>
+            <r xlink:href="/rest/r/php_bittorrent" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.2.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.0.1</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.2.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.0";}s:9:"extension";a:1:{s:4:"name";s:3:"spl";}}}</d>
+        </deps>
+        <deps>
+            <v>0.0.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}s:9:"extension";a:1:{s:4:"name";s:3:"spl";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>SqlDiff</n>
+            <c>pear.starzinger.net</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>MIT License</l>
+            <s>PHP library that creates a series of SQL statements based on two different schemas</s>
+            <d>SqlDiff is a set of components that can be used to generate a series of SQL statments to make one schema equal to another. Currently only MySQL is supported.</d>
+            <r xlink:href="/rest/r/sqldiff" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.0.3</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.0.2</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.0.1</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.0.3</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}s:9:"extension";a:1:{s:4:"name";s:3:"spl";}}}</d>
+        </deps>
+        <deps>
+            <v>0.0.2</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}s:9:"extension";a:1:{s:4:"name";s:3:"spl";}}}</d>
+        </deps>
+        <deps>
+            <v>0.0.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}s:9:"extension";a:1:{s:4:"name";s:3:"spl";}}}</d>
+        </deps>
+
+    </pi>
 </f>

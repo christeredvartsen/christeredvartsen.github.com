@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>SqlDiff</name>
+ <channel>pear.starzinger.net</channel>
+ <summary>PHP library that creates a series of SQL statements based on two different schemas</summary>
+ <description>SqlDiff is a set of components that can be used to generate a series of SQL statments to make one schema equal to another. Currently only MySQL is supported.</description>
+ <lead>
+  <name>Christer Edvartsen</name>
+  <user>christer</user>
+  <email>cogo@starzinger.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-02-21</date>
+ <time>17:35:21</time>
+ <version>
+  <release>0.0.3</release>
+  <api>0.0.3</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license">MIT License</license>
+ <notes>
+http://github.com/christeredvartsen/sqldiff/blob/master/README.markdown
+ </notes>
+ <contents>
+  <dir name="/">
+   <file baseinstalldir="/" md5sum="fad08d8bfdb1d0b0104127810b53b217" name="SqlDiff/Database/Table/Column/Abstract.php" role="php" />
+   <file baseinstalldir="/" md5sum="4ebb83b9b11e4f3b09b8215f179f69db" name="SqlDiff/Database/Table/Column/Mysql.php" role="php" />
+   <file baseinstalldir="/" md5sum="473c3ea3890485e98ac643f92ec89d63" name="SqlDiff/Database/Table/Index/Abstract.php" role="php" />
+   <file baseinstalldir="/" md5sum="1c1413d4968620ae76349469b9c34788" name="SqlDiff/Database/Table/Index/Mysql.php" role="php" />
+   <file baseinstalldir="/" md5sum="3a13973135358d24b1b66b57e01ec75e" name="SqlDiff/Database/Table/Abstract.php" role="php" />
+   <file baseinstalldir="/" md5sum="81af46e9a96fe5d404bd22e620d3f61a" name="SqlDiff/Database/Table/Mysql.php" role="php" />
+   <file baseinstalldir="/" md5sum="0a18f260e84f7113748af4364d7e5567" name="SqlDiff/Database/Abstract.php" role="php" />
+   <file baseinstalldir="/" md5sum="e05fe0d9c97fc38c9fe079bc92b347a7" name="SqlDiff/Database/Mysql.php" role="php" />
+   <file baseinstalldir="/" md5sum="8465da537dc82dd944e58b22ef15fead" name="SqlDiff/TextUI/Command.php" role="php" />
+   <file baseinstalldir="/" md5sum="5b39c7d99bd4faa94ecbe9ce14d505e6" name="SqlDiff/TextUI/Formatter.php" role="php" />
+   <file baseinstalldir="/" md5sum="33657b0d92ec23059db4456fe690e6f3" name="SqlDiff/Autoload.php" role="php" />
+   <file baseinstalldir="/" md5sum="3dfca7ef05aceda073645e9cbfc3b0a9" name="SqlDiff/Database.php" role="php" />
+   <file baseinstalldir="/" md5sum="909e2bc4c3acfcc09d1bd8102bf72a87" name="SqlDiff/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="e72501e8d829dbfa5d1974cc7e8d981b" name="SqlDiff/Version.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="97856adf9e90a070abef10f5935a7a34" name="LICENSE" role="doc" />
+   <file baseinstalldir="/" md5sum="f21fabe58f56e252a5ff2ae60c5f6eb3" name="README.markdown" role="doc" />
+   <file baseinstalldir="/" md5sum="e78c74f8dc22df515955c56d03211dc3" name="sqldiff.php" role="script">
+    <tasks:replace from="/usr/bin/env php" to="php_bin" type="pear-config" />
+    <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="10f449b70cb9fdd7d4f11545cebb18c4" name="sqldiff.bat" role="script">
+    <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@bin_dir@" to="bin_dir" type="pear-config" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <extension>
+    <name>spl</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease>
+  <installconditions>
+   <os>
+    <name>windows</name>
+   </os>
+  </installconditions>
+  <filelist>
+   <install as="sqldiff" name="sqldiff.php" />
+   <install as="sqldiff.bat" name="sqldiff.bat" />
+  </filelist>
+ </phprelease>
+ <phprelease>
+  <filelist>
+   <install as="sqldiff" name="sqldiff.php" />
+   <ignore name="sqldiff.bat" />
+  </filelist>
+ </phprelease>
+</package>
