@@ -3,6 +3,11 @@
     <p>ImboClient</p>
     <c>pear.starzinger.net</c>
     <r>
+        <v>0.4.0</v>
+        <s>beta</s>
+        <m>5.3.2</m>
+    </r>
+    <r>
         <v>0.3.0</v>
         <s>beta</s>
         <m>5.3.2</m>

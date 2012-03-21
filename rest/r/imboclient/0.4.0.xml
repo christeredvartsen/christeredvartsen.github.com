@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/imboclient">ImboClient</p>
+    <c>pear.starzinger.net</c>
+    <v>0.4.0</v>
+    <st>beta</st>
+    <l>MIT</l>
+    <m>christeredvartsen</m>
+    <s>Client for Imbo written in PHP</s>
+    <d>This is a client to Imbo servers written in PHP. The client supports all operations possible on the server.</d>
+    <da>2012-03-21 14:46:36</da>
+    <n>
+http://github.com/imbo/imboclient-php/blob/0.4.0/README.markdown
+ </n>
+    <f>17624</f>
+    <g>http://pear.starzinger.net/get/ImboClient-0.4.0</g>
+    <x xlink:href="package.0.4.0.xml"/>
+</r>
