@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.starzinger.net</id>
-    <updated>2012-03-22T17:35:53+01:00</updated>
+    <updated>2012-06-08T17:39:00+02:00</updated>
     <title>Starzinger PEAR channel Latest Releases</title>
     <link href="http://pear.starzinger.net/feed.xml" rel="self" />
     <author>
