@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.starzinger.net</id>
-    <updated>2012-06-08T17:39:00+02:00</updated>
+    <updated>2012-06-09T00:17:03+02:00</updated>
     <title>Starzinger PEAR channel Latest Releases</title>
     <link href="http://pear.starzinger.net/feed.xml" rel="self" />
     <author>
@@ -97,6 +97,19 @@ http://github.com/christeredvartsen/imboclient-php/blob/0.1.1/README.markdown
         <content>
             
 http://github.com/christeredvartsen/imboclient-php/blob/0.1.0/README.markdown
+ 
+        </content>
+    </entry>    <entry>
+        <title>ImboStandard 1.2.0 (stable)</title>
+        <link href="http://pear.starzinger.net/get/ImboStandard-1.2.0.tgz" />
+        <id>http://pear.starzinger.net/get/ImboStandard-1.2.0.tgz</id>
+        <author>
+            <name>christeredvartsen</name>
+        </author>
+        <updated>2012-06-08T22:17:00+02:00</updated>
+        <content>
+            
+http://github.com/imbo/imbo-codesniffer/blob/1.2.0/README.markdown
  
         </content>
     </entry>    <entry>
