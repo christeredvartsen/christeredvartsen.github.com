@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>ImboClient</name>
+ <channel>pear.starzinger.net</channel>
+ <summary>Client for Imbo written in PHP</summary>
+ <description>This is a client to Imbo servers written in PHP. The client supports all operations possible on the server.</description>
+ <lead>
+  <name>Christer Edvartsen</name>
+  <user>christeredvartsen</user>
+  <email>cogo@starzinger.net</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>Espen Hovlandsdal</name>
+  <user>rexxars</user>
+  <email>espen@hovlandsdal.com</email>
+  <active>yes</active>
+ </developer>
+ <date>2012-06-18</date>
+ <time>20:22:12</time>
+ <version>
+  <release>0.5.1</release>
+  <api>0.5.1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+ <notes>
+http://github.com/imbo/imboclient-php/blob/0.5.1/README.markdown
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="c4b3e04e0e14a8f481ee4f4c65894b75" name="ImboClient/Client.php" role="php" />
+   <file md5sum="e6e51453b8109450d69586a5059823b4" name="ImboClient/ClientInterface.php" role="php" />
+   <file md5sum="22656e299a5a626a90f9fcd98095797d" name="ImboClient/Driver/Curl.php" role="php" />
+   <file md5sum="80ea9da711f6662b11e8db907cc9ee5a" name="ImboClient/Driver/DriverInterface.php" role="php" />
+   <file md5sum="d4b85baaf8ddc875ac6aed96fda7f210" name="ImboClient/Http/HeaderContainer.php" role="php" />
+   <file md5sum="6b2284e1ea0f7936c8cda53d1ea6cb47" name="ImboClient/Http/HeaderContainerInterface.php" role="php" />
+   <file md5sum="b2b568380c82009c6f6b844f67dfb09c" name="ImboClient/Http/Response/Response.php" role="php" />
+   <file md5sum="b88e4fa040a70b3f53505ace327746fb" name="ImboClient/Http/Response/ResponseInterface.php" role="php" />
+   <file md5sum="b537ccce831a3414912c2ff1102f70a9" name="ImboClient/Url/AccessToken.php" role="php" />
+   <file md5sum="2d6012d9e3b3a45a657cca860d29da4d" name="ImboClient/Url/AccessTokenInterface.php" role="php" />
+   <file md5sum="4e1385c87d8c8c33e59c28b1baaec510" name="ImboClient/Url/Image.php" role="php" />
+   <file md5sum="505dfeb7b948258ae674868065d96145" name="ImboClient/Url/ImageInterface.php" role="php" />
+   <file md5sum="b41ff088a5d69a09c0b00911554d2b63" name="ImboClient/Url/Images.php" role="php" />
+   <file md5sum="867d0755eb8bda5afd19d63e0f33da02" name="ImboClient/Url/Images/Image.php" role="php" />
+   <file md5sum="a11bc5dc70a40395c036f3eb8d3f6fe9" name="ImboClient/Url/Images/ImageInterface.php" role="php" />
+   <file md5sum="d8081189399bd30c635ad4befe46f236" name="ImboClient/Url/Images/Query.php" role="php" />
+   <file md5sum="be8398f449730dcc39c1dc0ff7dffa07" name="ImboClient/Url/Images/QueryInterface.php" role="php" />
+   <file md5sum="da4e37af7217b97462b5db1fc0268198" name="ImboClient/Url/Metadata.php" role="php" />
+   <file md5sum="224ed769f420d34208102a92bcac3d28" name="ImboClient/Url/Status.php" role="php" />
+   <file md5sum="d4e1ff77dacd4b52a6ff99c294cc779f" name="ImboClient/Url/Url.php" role="php" />
+   <file md5sum="39b0737fece1881c61b8d9eb53153a48" name="ImboClient/Url/UrlInterface.php" role="php" />
+   <file md5sum="37107ea111eaf768df48f627d70e3ceb" name="ImboClient/Url/User.php" role="php" />
+   <file md5sum="319b443e875952b426f7ed3ac16e0849" name="ImboClient/Version.php" role="php" />
+   <file md5sum="e80270f2a2dd754dc2d8d20e5a783fe3" name="README.markdown" role="doc" />
+   <file md5sum="a9cb0ce614c98ebd0ba072aa623a7c42" name="LICENSE" role="doc" />
+   <file md5sum="ee314ed4855ff3366b6aa5227a9fc396" name="ChangeLog.markdown" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.0</min>
+   </pearinstaller>
+   <extension>
+    <name>spl</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>
