@@ -181,13 +181,17 @@
             <n>PHP_BitTorrent</n>
             <c>pear.starzinger.net</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
-            <l>MIT License</l>
+            <l>MIT</l>
             <s>Components for working with torrent files and the BitTorrent format in PHP</s>
-            <d>PHP_BitTorrent is a set of components that can be used to interact with torrent files (read+write) and encode/decode to/from the BitTorrent format.</d>
+            <d>PHP_BitTorrent is a set of components that can be used to interact with torrent files (read+write) and encode/decode to/from the BitTorrent format</d>
             <r xlink:href="/rest/r/php_bittorrent" />
         </p>
 
         <a>
+            <r>
+                <v>0.3.0</v>
+                <s>beta</s>
+            </r>
             <r>
                 <v>0.2.0</v>
                 <s>beta</s>
@@ -199,6 +203,10 @@
 
         </a>
 
+        <deps>
+            <v>0.3.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.0";}}}</d>
+        </deps>
         <deps>
             <v>0.2.0</v>
             <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.0";}s:9:"extension";a:1:{s:4:"name";s:3:"spl";}}}</d>

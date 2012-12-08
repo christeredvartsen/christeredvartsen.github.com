@@ -6,10 +6,10 @@
     <a>0.2.0</a>
     <mp>5.3.2</mp>
     <st>beta</st>
-    <l>MIT License</l>
+    <l>MIT</l>
     <m>christer</m>
     <s>Components for working with torrent files and the BitTorrent format in PHP</s>
-    <d>PHP_BitTorrent is a set of components that can be used to interact with torrent files (read+write) and encode/decode to/from the BitTorrent format.</d>
+    <d>PHP_BitTorrent is a set of components that can be used to interact with torrent files (read+write) and encode/decode to/from the BitTorrent format</d>
     <da>2012-01-04 13:46:34</da>
     <n>
 https://github.com/christeredvartsen/php-bittorrent/blob/0.2.0/README.markdown

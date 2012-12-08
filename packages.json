@@ -570,6 +570,36 @@
     },
     "pear-stz\/PHP_BitTorrent": {
         "versions": {
+            "0.3.0": {
+                "name": "pear-stz\/PHP_BitTorrent",
+                "description": "Components for working with torrent files and the BitTorrent format in PHP",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.starzinger.net\/get\/PHP_BitTorrent-0.3.0.tgz"
+                },
+                "version": "0.3.0",
+                "time": "2012-12-08T15:18:17+01:00",
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "authors": [
+                    {
+                        "name": "Christer Edvartsen",
+                        "email": "cogo@starzinger.net",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Christer Edvartsen",
+                        "email": "cogo@starzinger.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "PHP\/BitTorrent"
+                    ]
+                }
+            },
             "0.2.0": {
                 "name": "pear-stz\/PHP_BitTorrent",
                 "description": "Components for working with torrent files and the BitTorrent format in PHP",
@@ -584,6 +614,11 @@
                     "ext-spl": "*"
                 },
                 "authors": [
+                    {
+                        "name": "Christer Edvartsen",
+                        "email": "cogo@starzinger.net",
+                        "homepage": ""
+                    },
                     {
                         "name": "Christer Edvartsen",
                         "email": "cogo@starzinger.net",
@@ -610,6 +645,11 @@
                     "ext-spl": "*"
                 },
                 "authors": [
+                    {
+                        "name": "Christer Edvartsen",
+                        "email": "cogo@starzinger.net",
+                        "homepage": ""
+                    },
                     {
                         "name": "Christer Edvartsen",
                         "email": "cogo@starzinger.net",
