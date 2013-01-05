@@ -570,6 +570,36 @@
     },
     "pear-stz\/PHP_BitTorrent": {
         "versions": {
+            "1.0.0": {
+                "name": "pear-stz\/PHP_BitTorrent",
+                "description": "Components for working with torrent files and the BitTorrent format in PHP",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.starzinger.net\/get\/PHP_BitTorrent-1.0.0.tgz"
+                },
+                "version": "1.0.0",
+                "time": "2013-01-05T08:38:40+01:00",
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "authors": [
+                    {
+                        "name": "Christer Edvartsen",
+                        "email": "cogo@starzinger.net",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Christer Edvartsen",
+                        "email": "cogo@starzinger.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "PHP\/BitTorrent"
+                    ]
+                }
+            },
             "0.3.0": {
                 "name": "pear-stz\/PHP_BitTorrent",
                 "description": "Components for working with torrent files and the BitTorrent format in PHP",

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/php_bittorrent">PHP_BitTorrent</p>
+    <c>pear.starzinger.net</c>
+    <v>1.0.0</v>
+    <a>1.0.0</a>
+    <mp>5.3.2</mp>
+    <st>stable</st>
+    <l>MIT</l>
+    <m>christeredvartsen</m>
+    <s>Components for working with torrent files and the BitTorrent format in PHP</s>
+    <d>PHP_BitTorrent is a set of components that can be used to interact with torrent files (read+write) and encode/decode to/from the BitTorrent format</d>
+    <da>2013-01-05 08:38:40</da>
+    <n>
+http://github.com/christeredvartsen/php-bittorrent/blob/1.0.0/README.markdown
+ </n>
+    <f>9686</f>
+    <g>http://pear.starzinger.net/get/PHP_BitTorrent-1.0.0</g>
+    <x xlink:href="package.1.0.0.xml"/>
+</r>
