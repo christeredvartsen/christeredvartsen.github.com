@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHP_BitTorrent</name>
+ <channel>pear.starzinger.net</channel>
+ <summary>Components for working with torrent files and the BitTorrent format in PHP</summary>
+ <description>PHP_BitTorrent is a set of components that can be used to interact with torrent files (read+write) and encode/decode to/from the BitTorrent format</description>
+ <lead>
+  <name>Christer Edvartsen</name>
+  <user>christeredvartsen</user>
+  <email>cogo@starzinger.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2013-01-11</date>
+ <time>12:12:10</time>
+ <version>
+  <release>1.1.0</release>
+  <api>1.1.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+ <notes>
+http://github.com/christeredvartsen/php-bittorrent/blob/1.1.0/README.markdown
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="3008d11bb00963789e6d274b83520004" name="PHP/BitTorrent/Decoder.php" role="php" />
+   <file md5sum="7c89ec196b62ecb87a87c2fcf660c087" name="PHP/BitTorrent/DecoderInterface.php" role="php" />
+   <file md5sum="f83059485cdaf56fca919407e59e4008" name="PHP/BitTorrent/Encoder.php" role="php" />
+   <file md5sum="5f9d1a650ff7e554ad1182a3bb7946df" name="PHP/BitTorrent/EncoderInterface.php" role="php" />
+   <file md5sum="f3e6740530a86db5ef602ba4eee46df8" name="PHP/BitTorrent/Torrent.php" role="php" />
+   <file md5sum="453d3c0aa67462b755de060a6a340598" name="README.markdown" role="doc" />
+   <file md5sum="186304b4a179522e6f8836917205adaa" name="LICENSE" role="doc" />
+   <file md5sum="c642c998a3a4221305fad3ad16342972" name="ChangeLog.markdown" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.starzinger.net</id>
-    <updated>2013-01-05T09:38:44+01:00</updated>
+    <updated>2013-01-11T13:12:14+01:00</updated>
     <title>Starzinger PEAR channel Latest Releases</title>
     <link href="http://pear.starzinger.net/feed.xml" rel="self" />
     <author>
@@ -240,6 +240,19 @@ http://github.com/imbo/imbo-codesniffer/blob/1.1.0/README.markdown
         <content>
             
 http://github.com/christeredvartsen/imbo-codesniffer/blob/1.0.0/README.markdown
+ 
+        </content>
+    </entry>    <entry>
+        <title>PHP_BitTorrent 1.1.0 (stable)</title>
+        <link href="http://pear.starzinger.net/get/PHP_BitTorrent-1.1.0.tgz" />
+        <id>http://pear.starzinger.net/get/PHP_BitTorrent-1.1.0.tgz</id>
+        <author>
+            <name>christeredvartsen</name>
+        </author>
+        <updated>2013-01-11T12:12:10+01:00</updated>
+        <content>
+            
+http://github.com/christeredvartsen/php-bittorrent/blob/1.1.0/README.markdown
  
         </content>
     </entry>    <entry>
