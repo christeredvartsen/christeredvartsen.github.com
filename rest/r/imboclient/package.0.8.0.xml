@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>ImboClient</name>
+ <channel>pear.starzinger.net</channel>
+ <summary>Client for Imbo written in PHP</summary>
+ <description>This is a client to Imbo servers written in PHP. The client supports all operations possible on the server.</description>
+ <lead>
+  <name>Christer Edvartsen</name>
+  <user>christeredvartsen</user>
+  <email>cogo@starzinger.net</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>Espen Hovlandsdal</name>
+  <user>rexxars</user>
+  <email>espen@hovlandsdal.com</email>
+  <active>yes</active>
+ </developer>
+ <date>2013-01-12</date>
+ <time>19:53:37</time>
+ <version>
+  <release>0.8.0</release>
+  <api>0.8.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+ <notes>
+http://github.com/imbo/imboclient-php/blob/0.8.0/README.markdown
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="89313492fb3c41e4975431a2505e985b" name="ImboClient/Client.php" role="php" />
+   <file md5sum="247afb50e211cdf35cf59141f9934e2d" name="ImboClient/ClientInterface.php" role="php" />
+   <file md5sum="20dad81093e81cd22e74ddb3fca25bf6" name="ImboClient/Driver/DriverInterface.php" role="php" />
+   <file md5sum="92230714d90ebe3e1d970f76edff6955" name="ImboClient/Driver/cURL.php" role="php" />
+   <file md5sum="78cb9b016ea7317d8f1e4a84742d763b" name="ImboClient/Driver/cURL/Wrapper.php" role="php" />
+   <file md5sum="3ba2042be08c54060b507c91a8fa06c2" name="ImboClient/Exception.php" role="php" />
+   <file md5sum="8f8e0931279eb791feaa25748e3eb4a6" name="ImboClient/Exception/InvalidArgumentException.php" role="php" />
+   <file md5sum="d0f4ba80872ca708e5ab98263abd6588" name="ImboClient/Exception/RuntimeException.php" role="php" />
+   <file md5sum="08cab33cfd4c73c6edc1352cf2ca4c7d" name="ImboClient/Exception/ServerException.php" role="php" />
+   <file md5sum="8e27adc30a09dc071c496f43b3a4d8cc" name="ImboClient/Http/HeaderContainer.php" role="php" />
+   <file md5sum="7abf9e906e2dd96c71a35cac2b92862e" name="ImboClient/Http/HeaderContainerInterface.php" role="php" />
+   <file md5sum="cab99ec75e01c0b3670f7a9101ddbf36" name="ImboClient/Http/Response/Response.php" role="php" />
+   <file md5sum="72691049d6a410c3c7d41a3d9aa60025" name="ImboClient/Http/Response/ResponseInterface.php" role="php" />
+   <file md5sum="6c90754dae6507b43b0a9604350fe58c" name="ImboClient/Url/AccessToken.php" role="php" />
+   <file md5sum="8d8e5e618318d657cfc0b5c1ed3bd23a" name="ImboClient/Url/AccessTokenInterface.php" role="php" />
+   <file md5sum="74fb995341a9ddc36a3154b82ab6e3b3" name="ImboClient/Url/Image.php" role="php" />
+   <file md5sum="151daca2ec6908e3031a734c0e401490" name="ImboClient/Url/ImageInterface.php" role="php" />
+   <file md5sum="6e9fcd3cc18f7201872acb2e2cd9f80e" name="ImboClient/Url/Images.php" role="php" />
+   <file md5sum="fe16bd193df507ae25630eeef97a7b0f" name="ImboClient/Url/Images/Image.php" role="php" />
+   <file md5sum="56f43fddbf7595406c76913c1a36c7ff" name="ImboClient/Url/Images/ImageInterface.php" role="php" />
+   <file md5sum="fca3f1279eb81220895704a95c822e2e" name="ImboClient/Url/Images/Query.php" role="php" />
+   <file md5sum="5ce28c81b7bf50492ffd10edbf1247f4" name="ImboClient/Url/Images/QueryInterface.php" role="php" />
+   <file md5sum="ce04812acc98e6dad467e290a7be1e53" name="ImboClient/Url/Metadata.php" role="php" />
+   <file md5sum="7a48eb4b5237b5947cd36bd6a98f5e11" name="ImboClient/Url/Status.php" role="php" />
+   <file md5sum="f1a3df7be476eca0f3ce6f0916e89894" name="ImboClient/Url/Url.php" role="php" />
+   <file md5sum="940d0b76106466dfe5fd9a89d517df20" name="ImboClient/Url/UrlInterface.php" role="php" />
+   <file md5sum="94832559d558bdc42d410098b9157c96" name="ImboClient/Url/User.php" role="php" />
+   <file md5sum="78fee33c9c7b10db44d40dded2061851" name="ImboClient/Version.php" role="php" />
+   <file md5sum="5d3877c9a858e2f7047e531ae74b53eb" name="README.markdown" role="doc" />
+   <file md5sum="47bf56ebba6abc53068be58bd5d31b1e" name="LICENSE" role="doc" />
+   <file md5sum="1656afaa0aa92bab3c3eab8c9eb709c6" name="ChangeLog.markdown" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.0</min>
+   </pearinstaller>
+   <extension>
+    <name>spl</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>
