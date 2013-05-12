@@ -1,6 +1,37 @@
 {
     "pear-stz\/ImboClient": {
         "versions": {
+            "0.8.1": {
+                "name": "pear-stz\/ImboClient",
+                "description": "Client for Imbo written in PHP",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.starzinger.net\/get\/ImboClient-0.8.1.tgz"
+                },
+                "version": "0.8.1",
+                "time": "2013-05-12T10:37:41+02:00",
+                "require": {
+                    "php": ">=5.3.2",
+                    "ext-spl": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Christer Edvartsen",
+                        "email": "cogo@starzinger.net",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Espen Hovlandsdal",
+                        "email": "espen@hovlandsdal.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "ImboClient"
+                    ]
+                }
+            },
             "0.8.0": {
                 "name": "pear-stz\/ImboClient",
                 "description": "Client for Imbo written in PHP",

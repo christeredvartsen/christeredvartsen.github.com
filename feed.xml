@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.starzinger.net</id>
-    <updated>2013-01-12T20:53:40+01:00</updated>
+    <updated>2013-05-12T12:37:44+02:00</updated>
     <title>Starzinger PEAR channel Latest Releases</title>
     <link href="http://pear.starzinger.net/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,19 @@
     </author>
 
     <entry>
+        <title>ImboClient 0.8.1 (beta)</title>
+        <link href="http://pear.starzinger.net/get/ImboClient-0.8.1.tgz" />
+        <id>http://pear.starzinger.net/get/ImboClient-0.8.1.tgz</id>
+        <author>
+            <name>christeredvartsen</name>
+        </author>
+        <updated>2013-05-12T10:37:41+02:00</updated>
+        <content>
+            
+http://github.com/imbo/imboclient-php/blob/0.8.1/README.markdown
+ 
+        </content>
+    </entry>    <entry>
         <title>ImboClient 0.8.0 (beta)</title>
         <link href="http://pear.starzinger.net/get/ImboClient-0.8.0.tgz" />
         <id>http://pear.starzinger.net/get/ImboClient-0.8.0.tgz</id>
