@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>ImboStandard</name>
+ <channel>pear.starzinger.net</channel>
+ <summary>Imbo coding standard for PHP_CodeSniffer</summary>
+ <description>PHP_CodeSniffer coding standard used by Imbo and ImboClient</description>
+ <lead>
+  <name>Christer Edvartsen</name>
+  <user>christeredvartsen</user>
+  <email>cogo@starzinger.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2013-07-06</date>
+ <time>11:17:21</time>
+ <version>
+  <release>1.3.1</release>
+  <api>1.3.1</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+ <notes>
+http://github.com/imbo/imbo-codesniffer/blob/1.3.1/README.markdown
+ </notes>
+ <contents>
+  <dir baseinstalldir="PHP/CodeSniffer/Standards" name="/">
+   <file baseinstalldir="PHP/CodeSniffer/Standards" md5sum="d5922eb85319656ae8aed09281a6a3ce" name="Imbo/Sniffs/Formatting/DisallowMultipleUseStatementsSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards" md5sum="f1e483008b91db1fc048928c86adf1c5" name="Imbo/Sniffs/Whitespace/EmptyBodySniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards" md5sum="b81f449caa1cb45a9568edb8f7b50af6" name="Imbo/ruleset.xml" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.0</min>
+   </pearinstaller>
+   <package>
+    <name>PHP_CodeSniffer</name>
+    <channel>pear.php.net</channel>
+    <min>1.3.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>
